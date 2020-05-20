@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context=".HomeDoctor">
+
+    <TextView
+        android:id="@+id/tvHello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="188dp"
+        android:text="@string/Hello_Profile_Name"
+        android:textColor="@android:color/tertiary_text_light"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnViewAppointments"
+        android:layout_width="159dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_round"
+        android:drawableStart="@mipmap/ic_appointment_foreground"
+        android:drawableLeft="@mipmap/ic_appointment_foreground"
+        android:drawablePadding="-50dp"
+        android:paddingStart="-30dp"
+        android:paddingLeft="-30dp"
+        android:text="@string/View_Appointments"
+        android:textColor="@android:color/tertiary_text_light"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnViewComplaint" />
+
+    <Button
+        android:id="@+id/btnEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@mipmap/ic_editprofile_foreground"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/btnLogOut"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:drawableStart="@mipmap/ic_editprofile_foreground" />
+
+    <Button
+        android:id="@+id/btnLogOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:background="@android:color/transparent"
+        android:drawableRight="@mipmap/ic_logout_foreground"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:drawableEnd="@mipmap/ic_logout_foreground" />
+
+    <Button
+        android:id="@+id/btnViewComplaint"
+        android:layout_width="158dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="76dp"
+        android:background="@drawable/btn_round"
+        android:drawableStart="@mipmap/ic_complaint_foreground"
+        android:drawableLeft="@mipmap/ic_complaint_foreground"
+        android:drawablePadding="-50dp"
+        android:paddingStart="-30dp"
+        android:paddingLeft="-30dp"
+        android:text="@string/View_Complaints"
+        android:textColor="@android:color/tertiary_text_light"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvHello" />
+
+    <Button
+        android:id="@+id/btnSetAvailability"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/btn_round"
+        android:text="@string/Set_Availability"
+        android:textStyle="bold"
+        android:textColor="@android:color/tertiary_text_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnViewAppointments" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

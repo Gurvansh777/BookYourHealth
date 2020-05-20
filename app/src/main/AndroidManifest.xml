@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bookyourhealth">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ChangePassword"></activity>
+        <activity android:name=".AllUserList" />
+        <activity android:name=".ViewNotificationsUser" />
+        <activity android:name=".ViewPendingPaymentsCashier" />
+        <activity android:name=".PaymentPageUser" />
+        <activity android:name=".SetFeesCashier" />
+        <activity android:name=".BookAppointment" />
+        <activity android:name=".SetAvailabilityDoctor" />
+        <activity android:name=".ViewComplaintDetail" />
+        <activity android:name=".ViewComplaintDoctor" />
+        <activity android:name=".AddComplaint" />
+        <activity android:name=".DoctorPage" />
+        <activity android:name=".ViewAppointment" />
+        <activity android:name=".ViewComplaintUser" />
+        <activity android:name=".DoctorList" />
+        <activity android:name=".EditProfile" />
+        <activity android:name=".HomeAdmin" />
+        <activity android:name=".HomeCashier" />
+        <activity android:name=".HomeDoctor" />
+        <activity android:name=".HomeUser" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

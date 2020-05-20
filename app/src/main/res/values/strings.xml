@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">BookYourHealth</string>
+    <string name="app_title">Book Your Health</string>
+    <string name="Title_SignUp">SignUp</string>
+    <string name="Email">Email</string>
+    <string name="Email_Hint">something@gmail.com</string>
+    <string name="Password">Password</string>
+    <string name="Password_Hint">***********</string>
+    <string name="Confirm_Password">Confirm Password</string>
+    <string name="Confirm_Password_Hint">***********</string>
+    <string name="Agreement">By clicking Signup, you agree to our terms and conditions</string>
+    <string name="btn_SignUp">SIGN UP</string>
+    <string name="Login_Hyperlink">Already a member? Login</string>
+    <string name="Log_Out">Log Out</string>
+    <string name="Edit_Profile">Edit Profile</string>
+    <string name="Hello_Profile_Name">Hello! Username</string>
+    <string name="Find_Doctors">Find All Doctors</string>
+    <string name="Find_Doctors_ByPostalCode">Find Doctors By Postal Code</string>
+    <string name="View_Appointments">View Appointments</string>
+    <string name="Set_Availability">Set Availability</string>
+    <string name="View_Complaints">View Complaints</string>
+    <string name="hint_setdate">Set Date (MM/DD/YYYY)</string>
+    <string name="setFromHours">From</string>
+    <string name="setToHours">To</string>
+    <string name="setAvailability">SET</string>
+    <string name="bookAppointment">BOOK</string>
+    <string name="Postal_Code">Enter Postal Code</string>
+    <string name="login_Username">Username/Email</string>
+    <string name="Not_User">not a user? SignUp</string>
+    <string name="SignIn">SIGN IN</string>
+    <string name="Hint_ForgotPassword">Forgot Password?</string>
+    <string name="profile">Profile</string>
+    <string name="name">Name</string>
+    <string name="phoneNumber">Phone Number</string>
+    <string name="gender">Gender</string>
+    <string name="dob">Age</string>
+    <string name="postalCode">Postal Code</string>
+    <string name="btnSubmit">SUBMIT and LOGIN</string>
+    <string name="hint_name">Enter Name</string>
+    <string name="hint_PhoneNumber">Enter Phone Number</string>
+    <string name="hint_dob">Enter Age</string>
+    <string name="hint_postalCode">Enter Postal Code</string>
+    <string name="Button_Book">Book an Appointment</string>
+    <string name="Button_Complaint">Get Online Help</string>
+    <string name="Edit_User">Edit User Profile</string>
+    <string name="Add_User">Add User</string>
+    <string name="Add_Doctor">Add Doctor</string>
+    <string name="Edit_User_Admin">Edit Users</string>
+    <string-array name="spGender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="spUserType">
+        <item>Admin</item>
+        <item>User</item>
+        <item>Doctor</item>
+        <item>Cashier</item>
+    </string-array>
+    <string-array name="spFromToTime">
+        <item>9 AM</item>
+        <item>10 AM</item>
+        <item>11 AM</item>
+        <item>12 PM</item>
+        <item>1 PM</item>
+        <item>2 PM</item>
+        <item>3 PM</item>
+        <item>4 PM</item>
+        <item>5 PM</item>
+        <item>6 PM</item>
+    </string-array>
+    <string name="setFees">SET FEES</string>
+    <string name="User_Name">User Name</string>
+    <string name="User_Name_Hint">Enter User Name</string>
+    <string name="Post">Post</string>
+    <string name="Complaint">Complaint</string>
+    <string name="Solution">Solution</string>
+    <string name="Edit">Edit</string>
+    <string name="hint_Complaint">Type your question here.</string>
+    <string name="Label_OnlineFees">Online Consultation Fee</string>
+    <string name="Label_BookingFees">Appointment Fee</string>
+    <string name="label_total">Total Amount</string>
+    <string name="credit_card">Credit Card Number</string>
+    <string name="cvv">CVV</string>
+    <string name="msp">MSP</string>
+    <string name="mspNumber">MSP Number</string>
+    <string name="pay">Pay Now</string>
+    <string name="mmYY">Valid Till (MM/YY)</string>
+    <string name="viewPendingPaymentCashier">Click on any list item to send the user a notification for the payment.</string>
+    <string name="btnViewpendinginv">View Pending Invoices</string>
+    <string name="btnNotifications">Notifications</string>
+    <string name="Welcome">Book Appointment</string>
+    <string name="App_Info">This app can be used for</string>
+    <string name="Doc_Info">Doctor Information</string>
+    <string name="Manage_Account">Manage Account</string>
+    <string name="Ask_Doc">Ask a Doctor</string>
+    <string name="start">Start</string>
+    <string name="genReport">GENERATE REPORT</string>
+    <string name="btnPayLater">Pay Later</string>
+    <string name="btnChangePassword">Change Password</string>
+    <string name="oldPassword">Old Password</string>
+    <string name="newPassword">New Password</string>
+    <string name="confirmPassword">Confirm Password</string>
+</resources>

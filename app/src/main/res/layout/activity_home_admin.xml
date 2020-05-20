@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:focusableInTouchMode="false"
+    tools:context=".HomeAdmin">
+
+    <TextView
+        android:id="@+id/tvHello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="204dp"
+        android:text="@string/Hello_Profile_Name"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnLogOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawableEnd="@mipmap/ic_logout_foreground"
+        android:drawableRight="@mipmap/ic_logout_foreground"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnUpdateUser"
+        android:layout_width="190dp"
+        android:layout_height="53dp"
+        android:background="@drawable/btn_round"
+        android:drawableStart="@mipmap/ic_adminedituser_foreground"
+        android:drawableLeft="@mipmap/ic_adminedituser_foreground"
+        android:drawablePadding="-50dp"
+        android:paddingStart="-30dp"
+        android:paddingLeft="-30dp"
+        android:paddingRight="-30dp"
+        android:text="@string/Edit_User_Admin"
+        android:textColor="@android:color/tertiary_text_light"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAddUser"
+        app:layout_constraintVertical_bias="0.108" />
+
+    <Button
+        android:id="@+id/btnAddUser"
+        android:layout_width="170dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/btn_round"
+        android:drawableStart="@mipmap/ic_newuser_foreground"
+        android:drawableLeft="@mipmap/ic_newuser_foreground"
+        android:drawablePadding="-40dp"
+        android:paddingStart="-30dp"
+        android:paddingLeft="-30dp"
+        android:paddingRight="-30dp"
+        android:text="@string/Add_User"
+        android:textColor="@android:color/tertiary_text_light"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvHello" />
+
+    <Button
+        android:id="@+id/btnGenReport"
+        android:layout_width="72dp"
+        android:layout_height="103dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/genReport"
+        android:drawableTop="@mipmap/ic_report_foreground"
+        android:textColor="@android:color/tertiary_text_light"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.96"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnUpdateUser"
+        app:layout_constraintVertical_bias="0.896" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

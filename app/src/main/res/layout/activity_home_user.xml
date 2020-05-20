@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context=".HomeUser">
+
+    <EditText
+        android:id="@+id/etPostCd"
+        android:layout_width="240dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="@string/Postal_Code"
+        android:inputType="textPostalAddress"
+        android:textColor="@android:color/tertiary_text_light"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvHello"
+        tools:ignore="Autofill" />
+
+    <TextView
+        android:id="@+id/tvHello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:text="@string/Hello_Profile_Name"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnViewAppointment" />
+
+    <Button
+        android:id="@+id/btnEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawableStart="@mipmap/ic_editprofile_foreground"
+        android:drawableLeft="@mipmap/ic_editprofile_foreground"
+        android:textColor="@android:color/tertiary_text_light"
+        app:layout_constraintEnd_toStartOf="@+id/btnNotifications"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnLogOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawableEnd="@mipmap/ic_logout_foreground"
+        android:drawableRight="@mipmap/ic_logout_foreground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnViewAppointment"
+        android:layout_width="159dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_round"
+        android:drawableStart="@mipmap/ic_appointment_foreground"
+        android:drawableLeft="@mipmap/ic_appointment_foreground"
+        android:drawablePadding="-50dp"
+        android:paddingLeft="-30dp"
+        android:text="@string/View_Appointments"
+        android:textColor="@android:color/tertiary_text_light"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnViewComplaint" />
+
+    <Button
+        android:id="@+id/btnViewComplaint"
+        android:layout_width="158dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/btn_round"
+        android:drawableStart="@mipmap/ic_complaint_foreground"
+        android:drawableLeft="@mipmap/ic_complaint_foreground"
+        android:drawablePadding="-50dp"
+        android:paddingStart="-30dp"
+        android:paddingLeft="-30dp"
+        android:text="@string/View_Complaints"
+        android:textColor="@android:color/tertiary_text_light"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnEdit" />
+
+    <Button
+        android:id="@+id/btnFindDoctor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/btn_round"
+        android:text="@string/Find_Doctors"
+        android:textColor="@android:color/tertiary_text_light"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnFindDoctorPC" />
+
+    <Button
+        android:id="@+id/btnNotifications"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:background="@android:color/transparent"
+        android:drawableEnd="@mipmap/ic_notification_foreground"
+        android:drawableRight="@mipmap/ic_notification_foreground"
+        app:layout_constraintEnd_toEndOf="@+id/btnLogOut"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnFindDoctorPC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:background="@drawable/btn_round"
+        android:text="@string/Find_Doctors_ByPostalCode"
+        android:textColor="@android:color/tertiary_text_light"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etPostCd" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
